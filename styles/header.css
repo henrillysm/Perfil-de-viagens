@@ -2,6 +2,8 @@ header {
     padding-block: 32px;
 
     font: var(--text-md);
+
+    /* border: 1px solid red; */
 }
 
 header .container {
@@ -9,7 +11,11 @@ header .container {
     justify-content: space-between;
     align-items: center;
 
+    /* border: 1px solid red; */
+
 }
+
+
 
 #profile {
     display: flex;
@@ -17,7 +23,7 @@ header .container {
 }
 
 #profile > div {
-    max-width: 385;
+    max-width: 384px;
 }
 
 profile img {
@@ -34,7 +40,6 @@ profile img {
     margin-bottom: 8px;
 }
 
-
 #info {
     list-style: none;
 
@@ -43,6 +48,7 @@ profile img {
     gap: 16px;
 
     width: 280px;
+
 }
 
 #info li {

@@ -2,6 +2,9 @@ main {
     display: flex;
     flex-wrap: wrap;   
     padding-block: 24px;
+    gap: 24px;
+
+    /* border: 1px solid red; */
     
 }
 
@@ -10,5 +13,4 @@ main img {
     width: 286px;
     height: 286px;
     object-fit: cover;
-    gap: 24px;
 }
